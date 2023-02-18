@@ -39,3 +39,4 @@ console.log(maxComDiv(9,3));
 // Encontrar los primeros n elementos de la serie fibonacci
 // Usar recursion
 //separados o en array
+
