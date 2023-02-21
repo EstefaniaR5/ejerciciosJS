@@ -21,9 +21,11 @@ countTrue([]) ➞ 0
 
 const valores = [true, false, false, true, false];
 const contar = valores.filter((value) => value).length;
+if(value=null){
+    console.log('El array es vacío: 0')
+}
 console.log(contar);
-// de manera recursiva
-const countTrue = valores
+
 
 // Escribir una funcion para encontrar el mayor comun divisor de 2 numeros positivos enteros
 // Usar recursion

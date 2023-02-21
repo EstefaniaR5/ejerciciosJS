@@ -21,10 +21,11 @@ console.log(propArea('USA',9372610000000))
 // Escribir una funcion que retorne 0 si el input es 1 y 1 si el input es 0
 // No se pueden utilizar condicionales, ternarios, negaciones ni operatores bit
 
-const bool = (bit) =>{
-    console.log();
+const valor = (val) =>{
+    const retorna = ((Math.pow(val,0))-val);
+    console.log(retorna);
 }
-
+console.log(valor(0))
 
 
 // Messenger bzzz
